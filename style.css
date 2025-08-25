@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  height: 100vh;
+  background-color: #f9f9f9;
+  font: 16px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading img{
+    width: 40px;
+    height: 30px;
+    padding-left:10px ;
+}
+
+.conatiner {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eeeeee;
+  padding: 10px;
+  border-right: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbbb;
+  border-left: 1px solid #bbbbbb;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.right,
+#radio {
+  padding: 10px;
+}
+
+.left {
+  display: inline-block;
+  padding: 10px;
+}
+
+.right {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+#age-label {
+  padding-right: 33px;
+}
+
+#height-label {
+  padding-right: 14px;
+}
+
+#radio {
+  margin-bottom: 10px;
+}
+
+#calculate{
+     margin-left: 82px;
+     font-weight: bold;
+    background-color: rgb(21, 232, 200);
+    color: black;
+}
+
+#calculate:hover {
+  background-color: rgb(12, 240, 12);
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border-color: #333;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#clear {
+    background-color: #eeeeee;
+    color: black;
+}
+
+#clear:hover {
+  background-color: red;
+  color: black;
+  cursor: pointer;
+}
+
+#result {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: rgb(234, 169, 18);
+  margin: 10px 0;
+  padding: 10px;
+  color: black;
+}
